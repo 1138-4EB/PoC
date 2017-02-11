@@ -1,28 +1,28 @@
-language: python
+sudo: required
+language: c
 matrix:
   include:
-    - env: CONFIG="Trusty,Python3.5,libgnat-4.8,grc-1.9"
-      os: linux
+#    - services: docker
+#      script:
+#        - cd dockerbuilds/trusty/ && docker build .
+#    - services: docker
+#      script:
+#        - cd dockerbuilds/latest/ && docker build .
+    - os: linux
       sudo: required
-      dist: trusty
-      python: "3.5"
-      before_install:
-        - sudo apt-get install -y libgnat-4.8
-        - sudo ./tools/Travis-CI/grc.setup.sh
-    - env: CONFIG="Precise,Python3.5,gnat-5"
-      os: linux
-      python: "3.5"
-      addons:
-        apt:
-          packages:
-            - gnat-5
-  allow_failures:
-    - env: CONFIG="Precise,Python3.5,gnat-5"
-install:
-  - pip3 install -r tools/Travis-CI/requirements.txt
-before_script:
-  - ./tools/Travis-CI/ghdl.setup.sh
-  - ./tools/Travis-CI/poc.setup.sh
-script:
-  - ./tools/Travis-CI/poc.dryrun.sh
-  - ./tools/Travis-CI/poc.run.sh "PoC.*"
+      install: true
+      services: docker
+      env: BLD=docker
+      script:
+        - wget https://raw.githubusercontent.com/1138-4EB/ghdl/add-docker-proof-to-travis/dist/docker-mcode-ubu_lat.sh
+        - $DONTGRAB_SRCS=0
+        - chmod +x ./docker-mcode-ubu_lat.sh && ./docker-mcode-ubu_lat.sh
+        - ls
+        - GHDL_TARBALL=$(ls ghdl*.tgz)
+        - docker run --name ghdl_cmp -itv $(pwd):/wrk:Z python:3.5.3-slim sh -c "GHDL_TARBALL=$(ls ghdl*.tgz) && cd /wrk && sh ./tools/Travis-CI/build.sh $BLD"
+
+#  - dimg=ghdl/ghdl-tools:img-pythonslim_cmp-poc
+#  - do=docompile.sh
+#  - docker pull $dimg
+#  - chmod u+w+x $do
+#  - docker run --name froga -itv $(pwd):/scripts:Z $dimg bash -c "cd /scripts && sh $do && exit"

@@ -45,26 +45,28 @@ mkdir -p $TRAVIS_DIR
 cd $TRAVIS_DIR
 
 # downloading GHDL
-echo -e "${CYAN}Downloading $GHDL_TARBALL from $GITHUB_URL...${NOCOLOR}"
-wget -q $GITHUB_URL -O $GHDL_TARBALL
-if [ $? -eq 0 ]; then
-	echo -e "${GREEN}Download [SUCCESSFUL]${NOCOLOR}"
-else
-	echo 1>&2 -e "${RED}Download of $GITHUB_RELEASE_FILE [FAILED]${NOCOLOR}"
-	exit 1
-fi
+#echo -e "${CYAN}Downloading $GHDL_TARBALL from $GITHUB_URL...${NOCOLOR}"
+#wget -q $GITHUB_URL -O $GHDL_TARBALL
+#if [ $? -eq 0 ]; then
+#	echo -e "${GREEN}Download [SUCCESSFUL]${NOCOLOR}"
+#else
+#	echo 1>&2 -e "${RED}Download of $GITHUB_RELEASE_FILE [FAILED]${NOCOLOR}"
+#	exit 1
+#fi
 
 # unpack GHDL
-if [ -e $GHDL_TARBALL ]; then
-	echo -e "${CYAN}Unpacking $GHDL_TARBALL... ${NOCOLOR}"
-	tar -xzf $GHDL_TARBALL
-	if [ $? -eq 0 ]; then
-		echo -e "${GREEN}Unpack [SUCCESSFUL]${NOCOLOR}"
-	else
-		echo 1>&2 -e "${RED}Unpack [FAILED]${NOCOLOR}"
-		exit 1
-	fi
-fi
+#if [ -e $GHDL_TARBALL ]; then
+#	echo -e "${CYAN}Unpacking $GHDL_TARBALL... ${NOCOLOR}"
+#	tar -xzf $GHDL_TARBALL
+#	if [ $? -eq 0 ]; then
+#		echo -e "${GREEN}Unpack [SUCCESSFUL]${NOCOLOR}"
+#	else
+#		echo 1>&2 -e "${RED}Unpack [FAILED]${NOCOLOR}"
+#		exit 1
+#	fi
+#fi
+
+tar -xzf $GHDL_TARBALL
 
 # remove downloaded files
 rm $GHDL_TARBALL
