@@ -1,6 +1,37 @@
 language: python
 matrix:
   include:
+    - os: linux
+      dist: trusty
+      sudo: required
+      services: docker
+      language: minimal
+      install: skip
+      before_script:
+      script:
+        - export BTD_IMG_SPHINX="btdi/sphinx:py3-featured" && curl -L https://raw.githubusercontent.com/buildthedocs/btd/master/btd.sh | sh -s build -d -n "PoC" -i "docs" -v "release" -s "release"
+        - tar -cvzf PoC-doc.tgz ../btd_builds
+      addons:
+        apt:
+          packages:
+            - docker-ce
+      deploy:
+        - provider: releases
+          skip_cleanup: true
+          api_key:
+            secure: Dx0hwwXqjrSocPGKuLS467auDFtYEv7AFqsyxfvXYxhTcc2c5M1ZWZ2NUinAkHyDkI+WBBzxKe9ct9RLUEI6+z65wq5i+npIAQ1mj1wAslOsvFy7afiLog1QXuy3djkG2gxmr1h4FbnyBEVX/MLYHcEtP2cvmu32opObSLFZwzyaZI0CW5Z80V+Dr9nMymbOitPegMNB/DQLM5oJ1IX+4PB+/kO9PrJdLHc081loAh5L4bb385pQ+jwZyXoc0GRqu+LTA5WXG+iesQ4Sa85DPcLleYTHURBc6THjVg24XDU2SKCYFFGIhPjDLEdXO64G5WAxS4zl8K5E4tfb0iPFaFAEUtP2k+KkuxhNJtlArHEyA1b/exkCUPlcF5uBjWQSznhNeIL0SHG3fwmj912/LWmHAFrwj5+E1NKgn0/mK/xwzxjmJSaf8OMNgtW28eY/Bl1KxgZKGNGHv8gu7789ADryDy7pscPPX94fzf+gc67L/grNmCdugsMy7RxijP2+qRjIq4ttrqe3DQQcZO18GJjfOHSg8gtlUcVYYpEhwGlDIaxte4OFpS1Sz5tyYkJ7Lvz5HUZ+RVPdmTcLVxP62gRoajZ7RGZ+ffZUhTUSW6fER4Vp3/zPjrVFafphP0+bs9CsxjcZywU1rNMS+exL9edXomtaipauQPrzxy9Oh5g=
+          file: PoC-doc.tgz
+          file_glob: true
+          on:
+            repo: 1138-4EB/PoC
+            all_branches: true
+            tags: true
+        - provider: script
+          skip_cleanup: true
+          script: curl -L https://raw.githubusercontent.com/buildthedocs/btd/master/btd.sh | sed -e s/encrypted_0198ee37cbd2/encrypted_eb73a96f0c27/g | sh -s deploy
+          on:
+            repo: 1138-4EB/PoC
+            branch: release
     - env: CONFIG="Trusty,Python3.6,libgnat-4.8,grc-1.11"
       os: linux
       sudo: required

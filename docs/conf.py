@@ -15,6 +15,7 @@
 
 import sys
 import os
+from os.path import abspath, isfile
 
 from subprocess import check_output
 from textwrap   import dedent
@@ -22,12 +23,9 @@ from textwrap   import dedent
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
-sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../py'))
-sys.path.insert(0, os.path.abspath('_extensions'))
-sys.path.insert(0, os.path.abspath('_themes/sphinx_rtd_theme'))
-
-import sphinx_rtd_theme
+sys.path.insert(0, abspath('.'))
+sys.path.insert(0, abspath('../py'))
+sys.path.insert(0, abspath('_extensions'))
 
 # -- General configuration ------------------------------------------------
 
@@ -207,7 +205,13 @@ except Exception as ex:
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 # html_theme = 'alabaster'
-html_theme = "sphinx_rtd_theme"
+html_theme = "sphinx_btd_theme"
+html_context = {}
+# Add display_github and VERSIONING data
+if isfile('context.json'):
+   from json import loads
+   data = loads(open('context.json').read())
+html_context.update(data)
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -215,11 +219,7 @@ html_theme = "sphinx_rtd_theme"
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [
-	sphinx_rtd_theme.get_html_theme_path()
-]
-
-print(sphinx_rtd_theme.get_html_theme_path())
+html_theme_path = ["."]
 
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
