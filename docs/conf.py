@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# The PoC-Library documentation build configuration file, created by
-# sphinx-quickstart on Fri May  6 11:28:20 2016.
+# GHDL documentation build configuration file, created by
+# sphinx-quickstart on Fri Nov 20 20:33:03 2015.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -15,90 +14,44 @@
 
 import sys
 import os
+import shlex
+import re
+import subprocess
 
-from subprocess import check_output
+# http://docs.readthedocs.io/en/latest/getting_started.html#in-markdown
+from recommonmark.parser import CommonMarkParser
+source_parsers = { '.md': CommonMarkParser, }
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath('.'))
-sys.path.insert(0, os.path.abspath('../py'))
+# sys.path.insert(0, os.path.abspath('../py'))
 sys.path.insert(0, os.path.abspath('_extensions'))
-sys.path.insert(0, os.path.abspath('_themes/sphinx_rtd_theme'))
-
-import sphinx_rtd_theme
+# sys.path.insert(0, os.path.abspath('_themes/sphinx_rtd_theme'))
 
 # -- General configuration ------------------------------------------------
 
 # If your documentation needs a minimal Sphinx version, state it here.
-needs_sphinx = '1.4.9'
+#needs_sphinx = '1.5'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
 # Standard Sphinx extensions
-	'sphinx.ext.autodoc',
 	'sphinx.ext.extlinks',
 	'sphinx.ext.intersphinx',
-	'sphinx.ext.inheritance_diagram',
 	'sphinx.ext.todo',
-	# 'sphinx.ext.coverage',
 	'sphinx.ext.graphviz',
 	'sphinx.ext.mathjax',
 	'sphinx.ext.ifconfig',
 	'sphinx.ext.viewcode',
 	# 'sphinx.ext.githubpages',
 # SphinxContrib extensions
-	# 'sphinxcontrib.actdiag',
-	# 'sphinxcontrib.seqdiag',
-	'sphinxcontrib.wavedrom',
 	# 'sphinxcontrib.textstyle',
 	# 'sphinxcontrib.spelling',
-	'autoapi.sphinx',
-	# 'changelog',
-# local extensions (patched)
-	'autoprogram',               #'sphinxcontrib.autoprogram',
-# local extensions
-	'DocumentMember',
-	'poc'
 ]
-
-for tag in tags:
-	print(tag)
-
-# if (not (tags.has('PoCExternal') or tags.has('PoCInternal'))):
-	# tags.add('PoCExternal')
-
-from pathlib  import Path
-from shutil   import rmtree as shutil_rmtree
-
-buildDirectory = Path("_build")
-print("Removing old build directory '{0!s}'...".format(buildDirectory))
-# shutil_rmtree(str(buildDirectory))
-
-pyInfrastructureDirectory = Path("PyInfrastructure")
-print("Removing created files from '{0!s}'...".format(pyInfrastructureDirectory))
-for path in pyInfrastructureDirectory.iterdir():
-	if (path.name != "index.rst"):
-		print("  {0!s}".format(path))
-#		path.unlink()
-print()
-
-
-autodoc_member_order = "bysource"
-
-# Extract Python documentation and generate ReST files.
-autoapi_modules = {
-  'PoC':        {'output': "PyInfrastructure", 'template': "script"},
-  'Base':       {'output': "PyInfrastructure"},
-  'Compiler':   {'output': "PyInfrastructure"},
-  'DataBase':   {'output': "PyInfrastructure"},
-  'Parser':     {'output': "PyInfrastructure"},
-  'Simulator':  {'output': "PyInfrastructure"},
-  'ToolChain':  {'output': "PyInfrastructure"},
-  'lib':        {'output': "PyInfrastructure"}
-}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates', '_themes']
@@ -106,7 +59,7 @@ templates_path = ['_templates', '_themes']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
@@ -115,31 +68,16 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'The PoC-Library'
-copyright = '2007-2016 Technische Universitaet Dresden - Germany, Chair of VLSI-Design, Diagnostics and Architecture'
-author = 'Patrick Lehmann, Thomas B. Preusser, Martin Zabel'
+project = u'GHDL'
+copyright = u'2015-2017, Tristan Gingold and contributors'
+author = u'Tristan Gingold and contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
-
-def _IsUnderGitControl():
-	return (check_output(["git", "rev-parse", "--is-inside-work-tree"], universal_newlines=True).strip() == "true")
-
-def _LatestTagName():
-	return check_output(["git", "describe", "--abbrev=0", "--tags"], universal_newlines=True).strip()
-
-version = "1.1"     # The short X.Y version.
-release = "1.1.1"   # The full version, including alpha/beta/rc tags.
-try:
-	if _IsUnderGitControl:
-		latestTagName = _LatestTagName()[1:]		# remove prefix "v"
-		versionParts =  latestTagName.split("-")[0].split(".")
-
-		version = ".".join(versionParts[:2])
-		release = latestTagName   # ".".join(versionParts[:3])
-except:
-	pass
+#
+version = "latest"
+release = version  # The full version, including alpha/beta/rc tags.
 
 # The language for content autogenerated by Sphinx. Refer to documentation
 # for a list of supported languages.
@@ -152,11 +90,10 @@ language = None
 # non-false value, then it is used:
 #today = ''
 # Else, today_fmt is used as the format for a strftime call.
-#today_fmt = '%d.%m.%Y'
+#today_fmt = '%B %d, %Y'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
@@ -190,18 +127,26 @@ todo_link_only = True
 # reST settings
 
 rst_prolog = """\
+.. include:: <isonum.txt>
 .. |br| raw:: html
 
    <br />
-
 """
 
 # -- Options for HTML output ----------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-# html_theme = 'alabaster'
-html_theme = "sphinx_rtd_theme"
+#html_theme = 'alabaster'
+#html_theme = "sphinx_rtd_theme"
+# Override default css to get a larger width for ReadTheDoc build            
+html_context = {                                                             
+    'css_files': [                                                           
+        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',            
+        'https://media.readthedocs.org/css/readthedocs-doc-embed.css',       
+        '_static/theme_overrides.css',                                       
+    ],
+}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -209,15 +154,11 @@ html_theme = "sphinx_rtd_theme"
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = [
-	sphinx_rtd_theme.get_html_theme_path()
-]
+#html_theme_path = []
 
-print(sphinx_rtd_theme.get_html_theme_path())
-
-# The name for this set of Sphinx documents.
-# "<project> v<release> documentation" by default.
-#html_title = 'The PoC-Library v1.0.0'
+# The name for this set of Sphinx documents.  If None, it defaults to
+# "<project> v<release> documentation".
+#html_title = None
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -226,8 +167,8 @@ print(sphinx_rtd_theme.get_html_theme_path())
 # of the sidebar.
 #html_logo = None
 
-# The name of an image file (relative to this directory) to use as a favicon of
-# the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
+# The name of an image file (within the static path) to use as favicon of the
+# docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
 #html_favicon = None
 
@@ -241,10 +182,9 @@ html_static_path = ['_static']
 # directly to the root of the documentation.
 #html_extra_path = []
 
-# If not None, a 'Last updated on:' timestamp is inserted at every page
-# bottom, using the given strftime format.
-# The empty string is equivalent to '%b %d, %Y'.
-html_last_updated_fmt = "%b %d, %Y"
+# If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
+# using the given strftime format.
+#html_last_updated_fmt = '%b %d, %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -264,7 +204,7 @@ html_last_updated_fmt = "%b %d, %Y"
 #html_use_index = True
 
 # If true, the index is split into individual pages for each letter.
-# html_split_index = True
+#html_split_index = False
 
 # If true, links to the reST sources are added to the pages.
 #html_show_sourcelink = True
@@ -285,13 +225,12 @@ html_last_updated_fmt = "%b %d, %Y"
 
 # Language to be used for generating the HTML full-text search index.
 # Sphinx supports the following languages:
-#   'da', 'de', 'en', 'es', 'fi', 'fr', 'h', 'it', 'ja'
-#   'nl', 'no', 'pt', 'ro', 'r', 'sv', 'tr', 'zh'
+#   'da', 'de', 'en', 'es', 'fi', 'fr', 'hu', 'it', 'ja'
+#   'nl', 'no', 'pt', 'ro', 'ru', 'sv', 'tr'
 #html_search_language = 'en'
 
 # A dictionary with options for the search language support, empty by default.
-# 'ja' uses this config value.
-# 'zh' user can custom change `jieba` dictionary path.
+# Now only 'ja' uses this config value
 #html_search_options = {'type': 'default'}
 
 # The name of a javascript file (relative to the configuration directory) that
@@ -299,13 +238,13 @@ html_last_updated_fmt = "%b %d, %Y"
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'ThePoC-Librarydoc'
+htmlhelp_basename = 'GHDLdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
 # The paper size ('letterpaper' or 'a4paper').
-	'papersize': 'a4paper',
+'papersize': 'a4paper',
 
 # The font size ('10pt', '11pt' or '12pt').
 #'pointsize': '10pt',
@@ -321,8 +260,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ThePoC-Library.tex', 'The PoC-Library Documentation',
-     'Patrick Lehmann, Thomas B. Preusser, Martin Zabel', 'manual'),
+  (master_doc, 'GHDL.tex', u'GHDL Documentation',
+   u'Tristan Gingold', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -331,7 +270,7 @@ latex_documents = [
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
-# latex_use_parts = True
+#latex_use_parts = False
 
 # If true, show page references after internal links.
 #latex_show_pagerefs = False
@@ -351,7 +290,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'thepoc-library', 'The PoC-Library Documentation',
+    (master_doc, 'ghdl', u'GHDL Documentation',
      [author], 1)
 ]
 
@@ -365,9 +304,9 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'ThePoC-Library', 'The PoC-Library Documentation',
-     author, 'ThePoC-Library', 'One line description of project.',
-     'Miscellaneous'),
+  (master_doc, 'GHDL', u'GHDL Documentation',
+   author, 'GHDL', 'VHDL simulator.',
+   'Miscellaneous'),
 ]
 
 # Documents to append as an appendix to all manuals.
@@ -386,103 +325,17 @@ texinfo_documents = [
 # Sphinx.Ext.InterSphinx
 # ==============================================================================
 intersphinx_mapping = {
-	'python': ('https://docs.python.org/3.5/', None),
-	'ghdl':   ('http://ghdl.readthedocs.io/en/latest', None)
+#	'python': ('https://docs.python.org/3.5/', None)
+	'ghdl':   ('http://ghdl-devfork.readthedocs.io/en/new-documentation-structure', None)
 }
 
 # ==============================================================================
 # Sphinx.Ext.ExtLinks
 # ==============================================================================
 extlinks = {
-	'pocissue': ('https://github.com/VLSI-EDA/PoC/issues/%s', 'issue #'),
-	'pocpull':  ('https://github.com/VLSI-EDA/PoC/pull/%s', 'pull request #'),
-	'pocsrc':   ('https://github.com/VLSI-EDA/PoC/blob/master/src/%s?ts=2', None),
-	'poctb':    ('https://github.com/VLSI-EDA/PoC/blob/master/tb/%s?ts=2', None)
+    'ghdlsharp': ('https://github.com/tgingold/ghdl/issues/%s', '#'),
+	'ghdlissue': ('https://github.com/tgingold/ghdl/issues/%s', 'issue #'),
+	'ghdlpull':  ('https://github.com/tgingold/ghdl/pull/%s', 'pull request #'),
+	'ghdlsrc':   ('https://github.com/tgingold/ghdl/blob/master/src/%s', None),
+	'wikipedia': ('https://en.wikipedia.org/wiki/%s', None)
 }
-
-
-# ==============================================================================
-# Sphinx.Ext.Graphviz
-# ==============================================================================
-graphviz_output_format = "svg"
-
-
-# ==============================================================================
-# Changelog
-# ==============================================================================
-# section names - optional
-changelog_sections = ["general", "rendering", "tests"]
-
-# tags to sort on inside of sections - also optional
-changelog_inner_tag_sort = ["feature", "bug"]
-
-# how to render changelog links - these are plain
-# python string templates, ticket/pullreq/changeset number goes
-# in "%s"
-changelog_render_ticket = "http://bitbucket.org/myusername/myproject/issue/%s"
-changelog_render_pullreq = "http://bitbucket.org/myusername/myproject/pullrequest/%s"
-changelog_render_changeset = "http://bitbucket.org/myusername/myproject/changeset/%s"
-
-
-# ==============================================================================
-# SphinxContrib.Spelling
-# ==============================================================================
-# # String specifying the language, as understood by PyEnchant and enchant.
-# # Defaults to en_US for US English.
-# spelling_lang='en_US'
-#
-# # String specifying a file containing a list of words known to be spelled
-# # correctly but that do not appear in the language dictionary selected by
-# # spelling_lang. The file should contain one word per line.
-# # Refer to the PyEnchant tutorial for details.
-# #spelling_word_list_filename='spelling_wordlist.txt'
-#
-# # Boolean controlling whether suggestions for misspelled words are printed.
-# # Defaults to False.
-# spelling_show_suggestions=True
-#
-# # Boolean controlling whether words that look like package names from PyPI are
-# # treated as spelled properly. When True, the current list of package names is
-# # downloaded at the start of the build and used to extend the list of known
-# # words in the dictionary.
-# # Defaults to False.
-# spelling_ignore_pypi_package_names=False
-#
-# # Boolean controlling whether words that follow the CamelCase conventions used
-# # for page names in wikis should be treated as spelled properly.
-# # Defaults to True.
-# spelling_ignore_wiki_words=True
-#
-# # Boolean controlling treatment of words that appear in all capital letters, or
-# # all capital letters followed by a lower case s. When True, acronyms are
-# # assumed to be spelled properly.
-# # Defaults to True.
-# spelling_ignore_acronyms=True
-#
-# # Boolean controlling whether names built in to Python should be treated as
-# # spelled properly.
-# # Defaults to True.
-# spelling_ignore_python_builtins=True
-#
-# # Boolean controlling whether words that are names of modules found on
-# # sys.path are treated as spelled properly.
-# # Defaults to True.
-# spelling_ignore_importable_modules=True
-#
-# # List of filter classes to be added to the tokenizer that produces words to be
-# # checked. The classes should be derived from enchant.tokenize.Filter. Refer to
-# # the PyEnchant tutorial for examples.
-# spelling_filters=[]
-
-
-# ==============================================================================
-# Custom changes
-# ==============================================================================
-def setup(app):
-	app.add_stylesheet('css/custom.css')
-	if tags.has('PoCInternal'):
-		app.add_config_value('visibility', 'PoCInternal', True)
-		print("="* 40)
-	else:
-		app.add_config_value('visibility', 'PoCExternal', True)
-		print("-"* 40)
