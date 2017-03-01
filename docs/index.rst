@@ -7,6 +7,10 @@ and Architecture** - Faculty of Computer Science, Technische Universität Dresde
 Germany |br|
 `https://tu-dresden.de/ing/informatik/ti/vlsi <https://tu-dresden.de/ing/informatik/ti/vlsi>`_
 
+:ref:`GHDL Roadmap <ghdl:CHANGE:Roadmap>`
+
+:option:`ghdl:-a>`
+
 .. only:: html
 
    .. image:: /_static/logos/tu-dresden.jpg

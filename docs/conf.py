@@ -387,7 +387,7 @@ texinfo_documents = [
 # ==============================================================================
 intersphinx_mapping = {
 	'python': ('https://docs.python.org/3.5/', None),
-	'ghdl':   ('http://ghdl.readthedocs.io/en/latest', None)
+	'ghdl':   ('http://ghdl.readthedocs.io/en/new-documentation-structure', None)
 }
 
 # ==============================================================================
