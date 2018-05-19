@@ -1,0 +1,466 @@
+lib.CodeDOM
+===============
+
+.. automodule:: lib.CodeDOM
+
+
+.. currentmodule:: lib.CodeDOM
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`CodeDOMMeta`:
+  type(object_or_name, bases, dict)
+
+- :py:class:`CodeDOMObject`:
+  Undocumented.
+
+- :py:class:`Expression`:
+  Undocumented.
+
+- :py:class:`UnaryExpression`:
+  Undocumented.
+
+- :py:class:`NotExpression`:
+  Undocumented.
+
+- :py:class:`BinaryExpression`:
+  Undocumented.
+
+- :py:class:`LogicalExpression`:
+  Undocumented.
+
+- :py:class:`CompareExpression`:
+  Undocumented.
+
+- :py:class:`EqualExpression`:
+  Undocumented.
+
+- :py:class:`UnequalExpression`:
+  Undocumented.
+
+- :py:class:`LessThanExpression`:
+  Undocumented.
+
+- :py:class:`LessThanEqualExpression`:
+  Undocumented.
+
+- :py:class:`GreaterThanExpression`:
+  Undocumented.
+
+- :py:class:`GreaterThanEqualExpression`:
+  Undocumented.
+
+- :py:class:`AndExpression`:
+  Undocumented.
+
+- :py:class:`OrExpression`:
+  Undocumented.
+
+- :py:class:`XorExpression`:
+  Undocumented.
+
+- :py:class:`InExpression`:
+  Undocumented.
+
+- :py:class:`NotInExpression`:
+  Undocumented.
+
+- :py:class:`Function`:
+  Undocumented.
+
+- :py:class:`ListElement`:
+  Undocumented.
+
+- :py:class:`Literal`:
+  Undocumented.
+
+- :py:class:`StringLiteral`:
+  Undocumented.
+
+- :py:class:`IntegerLiteral`:
+  Undocumented.
+
+- :py:class:`Identifier`:
+  Undocumented.
+
+- :py:class:`Statement`:
+  Undocumented.
+
+- :py:class:`BlockStatement`:
+  Undocumented.
+
+- :py:class:`ConditionalBlockStatement`:
+  Undocumented.
+
+- :py:class:`EmptyLine`:
+  Undocumented.
+
+- :py:class:`CommentLine`:
+  Undocumented.
+
+- :py:class:`BlockedStatement`:
+  Undocumented.
+
+- :py:class:`ExpressionChoice`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: CodeDOMMeta
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CodeDOMMeta
+
+   .. rubric:: Members
+
+.. autoclass:: CodeDOMObject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CodeDOMObject
+
+   .. rubric:: Members
+
+.. autoclass:: Expression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Expression
+
+   .. rubric:: Members
+
+.. autoclass:: UnaryExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: UnaryExpression
+
+   .. rubric:: Members
+
+.. autoclass:: NotExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NotExpression
+
+   .. rubric:: Members
+
+.. autoclass:: BinaryExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BinaryExpression
+
+   .. rubric:: Members
+
+.. autoclass:: LogicalExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LogicalExpression
+
+   .. rubric:: Members
+
+.. autoclass:: CompareExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CompareExpression
+
+   .. rubric:: Members
+
+.. autoclass:: EqualExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EqualExpression
+
+   .. rubric:: Members
+
+.. autoclass:: UnequalExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: UnequalExpression
+
+   .. rubric:: Members
+
+.. autoclass:: LessThanExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LessThanExpression
+
+   .. rubric:: Members
+
+.. autoclass:: LessThanEqualExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LessThanEqualExpression
+
+   .. rubric:: Members
+
+.. autoclass:: GreaterThanExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GreaterThanExpression
+
+   .. rubric:: Members
+
+.. autoclass:: GreaterThanEqualExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GreaterThanEqualExpression
+
+   .. rubric:: Members
+
+.. autoclass:: AndExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AndExpression
+
+   .. rubric:: Members
+
+.. autoclass:: OrExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: OrExpression
+
+   .. rubric:: Members
+
+.. autoclass:: XorExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XorExpression
+
+   .. rubric:: Members
+
+.. autoclass:: InExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: InExpression
+
+   .. rubric:: Members
+
+.. autoclass:: NotInExpression
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NotInExpression
+
+   .. rubric:: Members
+
+.. autoclass:: Function
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Function
+
+   .. rubric:: Members
+
+.. autoclass:: ListElement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ListElement
+
+   .. rubric:: Members
+
+.. autoclass:: Literal
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Literal
+
+   .. rubric:: Members
+
+.. autoclass:: StringLiteral
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StringLiteral
+
+   .. rubric:: Members
+
+.. autoclass:: IntegerLiteral
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IntegerLiteral
+
+   .. rubric:: Members
+
+.. autoclass:: Identifier
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Identifier
+
+   .. rubric:: Members
+
+.. autoclass:: Statement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Statement
+
+   .. rubric:: Members
+
+.. autoclass:: BlockStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BlockStatement
+
+   .. rubric:: Members
+
+.. autoclass:: ConditionalBlockStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConditionalBlockStatement
+
+   .. rubric:: Members
+
+.. autoclass:: EmptyLine
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EmptyLine
+
+   .. rubric:: Members
+
+.. autoclass:: CommentLine
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommentLine
+
+   .. rubric:: Members
+
+.. autoclass:: BlockedStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BlockedStatement
+
+   .. rubric:: Members
+
+.. autoclass:: ExpressionChoice
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExpressionChoice
+
+   .. rubric:: Members

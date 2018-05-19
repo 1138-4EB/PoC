@@ -1,0 +1,54 @@
+ToolChain.Mentor.QuestaSim
+==============================
+
+.. automodule:: ToolChain.Mentor.QuestaSim
+
+
+.. currentmodule:: ToolChain.Mentor.QuestaSim
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`QuestaSimException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: QuestaSimException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuestaSimException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members

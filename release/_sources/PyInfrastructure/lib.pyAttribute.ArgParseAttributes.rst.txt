@@ -1,0 +1,130 @@
+lib.pyAttribute.ArgParseAttributes
+======================================
+
+.. automodule:: lib.pyAttribute.ArgParseAttributes
+
+
+.. currentmodule:: lib.pyAttribute.ArgParseAttributes
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`CommandGroupAttribute`:
+  Undocumented.
+
+- :py:class:`DefaultAttribute`:
+  Undocumented.
+
+- :py:class:`CommandAttribute`:
+  Undocumented.
+
+- :py:class:`ArgumentAttribute`:
+  Undocumented.
+
+- :py:class:`SwitchArgumentAttribute`:
+  Undocumented.
+
+- :py:class:`CommonArgumentAttribute`:
+  Undocumented.
+
+- :py:class:`CommonSwitchArgumentAttribute`:
+  Undocumented.
+
+- :py:class:`ArgParseMixin`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: CommandGroupAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommandGroupAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: DefaultAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DefaultAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: CommandAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommandAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: ArgumentAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ArgumentAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: SwitchArgumentAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SwitchArgumentAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: CommonArgumentAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommonArgumentAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: CommonSwitchArgumentAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommonSwitchArgumentAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: ArgParseMixin
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ArgParseMixin
+
+   .. rubric:: Members

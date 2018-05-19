@@ -1,0 +1,167 @@
+Compiler
+============
+
+.. automodule:: Compiler
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   Compiler.ISECompiler
+   Compiler.LSECompiler
+   Compiler.QuartusCompiler
+   Compiler.VivadoCompiler
+   Compiler.XCICompiler
+   Compiler.XCOCompiler
+   Compiler.XSTCompiler
+
+.. currentmodule:: Compiler
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`CompilerException`:
+  Base class for all CompilerException classes. It is raised while running
+
+- :py:exc:`SkipableCompilerException`:
+  ``SkipableCompilerException`` is a :py:exc:`CompilerException`, which
+
+
+
+**Classes**
+
+- :py:class:`CopyTask`:
+  This class represents a 'copy task' and inherits the partial class
+
+- :py:class:`DeleteTask`:
+  This class represents a 'delete task' and inherits the partial class
+
+- :py:class:`ReplaceTask`:
+  This class represents a 'replace task' and inherits the partial class
+
+- :py:class:`AppendLineTask`:
+  This class represents a 'append line task' and inherits the partial class
+
+- :py:class:`CompileState`:
+  Compile state enumeration.
+
+- :py:class:`CompileResult`:
+  Compilation result enumeration.
+
+- :py:class:`Compiler`:
+  Base class for all Compiler classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: CompilerException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CompilerException
+
+   .. rubric:: Members
+
+.. autoexception:: SkipableCompilerException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SkipableCompilerException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: CopyTask
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CopyTask
+
+   .. rubric:: Members
+
+.. autoclass:: DeleteTask
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DeleteTask
+
+   .. rubric:: Members
+
+.. autoclass:: ReplaceTask
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ReplaceTask
+
+   .. rubric:: Members
+
+.. autoclass:: AppendLineTask
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AppendLineTask
+
+   .. rubric:: Members
+
+.. autoclass:: CompileState
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CompileState
+
+   .. rubric:: Members
+
+.. autoclass:: CompileResult
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CompileResult
+
+   .. rubric:: Members
+
+.. autoclass:: Compiler
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Compiler
+
+   .. rubric:: Members

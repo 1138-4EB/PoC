@@ -1,0 +1,64 @@
+ToolChain.Aldec
+===================
+
+.. automodule:: ToolChain.Aldec
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Aldec.ActiveHDL
+   ToolChain.Aldec.RivieraPRO
+
+.. currentmodule:: ToolChain.Aldec
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`AldecException`:
+  Base class for all Aldec tool's exceptions.
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Aldec as a vendor.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: AldecException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AldecException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members

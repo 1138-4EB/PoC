@@ -1,0 +1,181 @@
+ToolChain.Altera.Quartus
+============================
+
+.. automodule:: ToolChain.Altera.Quartus
+
+
+.. currentmodule:: ToolChain.Altera.Quartus
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`QuartusException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`QuartusEditions`:
+  Enumeration of all Quartus editions provided by Altera itself.
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`Quartus`:
+  Undocumented.
+
+- :py:class:`Map`:
+  Represent an executable.
+
+- :py:class:`TclShell`:
+  Represent an executable.
+
+- :py:class:`QuartusSession`:
+  Undocumented.
+
+- :py:class:`QuartusProject`:
+  Undocumented.
+
+- :py:class:`QuartusSettings`:
+  Undocumented.
+
+- :py:class:`QuartusProjectFile`:
+  Undocumented.
+
+
+
+**Functions**
+
+- :py:func:`MapFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: QuartusException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: QuartusEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusEditions
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: Quartus
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Quartus
+
+   .. rubric:: Members
+
+.. autoclass:: Map
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Map
+
+   .. rubric:: Members
+
+.. autoclass:: TclShell
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: TclShell
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusSession
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusSession
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusProject
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusSettings
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusSettings
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusProjectFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusProjectFile
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: MapFilter

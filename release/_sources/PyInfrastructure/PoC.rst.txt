@@ -1,0 +1,125 @@
+PoC.py
+=======
+
+.. automodule:: PoC
+
+
+
+.. currentmodule:: PoC
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`PoCEntityAttribute`:
+  Undocumented.
+
+- :py:class:`BoardDeviceAttributeGroup`:
+  Undocumented.
+
+- :py:class:`VHDLVersionAttribute`:
+  Undocumented.
+
+- :py:class:`SimulationStepsAttributeGroup`:
+  Undocumented.
+
+- :py:class:`CompileStepsAttributeGroup`:
+  Undocumented.
+
+- :py:class:`PileOfCores`:
+  A mixin class to provide local logging methods.
+
+
+
+**Functions**
+
+- :py:func:`main`:
+  This is the entry point for PoC.py written as a function.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: PoCEntityAttribute
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PoCEntityAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: BoardDeviceAttributeGroup
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BoardDeviceAttributeGroup
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLVersionAttribute
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLVersionAttribute
+
+   .. rubric:: Members
+
+.. autoclass:: SimulationStepsAttributeGroup
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SimulationStepsAttributeGroup
+
+   .. rubric:: Members
+
+.. autoclass:: CompileStepsAttributeGroup
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CompileStepsAttributeGroup
+
+   .. rubric:: Members
+
+.. autoclass:: PileOfCores
+   :members:
+   :noindex:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PileOfCores
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: main
+   :noindex:

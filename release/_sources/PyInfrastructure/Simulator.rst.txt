@@ -1,0 +1,155 @@
+Simulator
+=============
+
+.. automodule:: Simulator
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   Simulator.ActiveHDLSimulator
+   Simulator.CocotbSimulator
+   Simulator.GHDLSimulator
+   Simulator.ISESimulator
+   Simulator.ModelSimSimulator
+   Simulator.QuestaSimulator
+   Simulator.RivieraPROSimulator
+   Simulator.VivadoSimulator
+
+.. currentmodule:: Simulator
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`SimulatorException`:
+  Base class for all SimulatorException classes. It is raised while running
+
+- :py:exc:`SkipableSimulatorException`:
+  ``SkipableSimulatorException`` is a :py:exc:`SimulatorException`, which
+
+- :py:exc:`PoCSimulationResultNotFoundException`:
+  This exception is raised if the expected PoC simulation result string was
+
+
+
+**Classes**
+
+- :py:class:`SimulationSteps`:
+  Simulation step enumeration.
+
+- :py:class:`SimulationState`:
+  Simulation state enumeration.
+
+- :py:class:`SimulationResult`:
+  Simulation result enumeration.
+
+- :py:class:`Simulator`:
+  Base class for all Simulator classes.
+
+
+
+**Functions**
+
+- :py:func:`PoCSimulationResultFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: SimulatorException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SimulatorException
+
+   .. rubric:: Members
+
+.. autoexception:: SkipableSimulatorException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SkipableSimulatorException
+
+   .. rubric:: Members
+
+.. autoexception:: PoCSimulationResultNotFoundException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PoCSimulationResultNotFoundException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: SimulationSteps
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SimulationSteps
+
+   .. rubric:: Members
+
+.. autoclass:: SimulationState
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SimulationState
+
+   .. rubric:: Members
+
+.. autoclass:: SimulationResult
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SimulationResult
+
+   .. rubric:: Members
+
+.. autoclass:: Simulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Simulator
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: PoCSimulationResultFilter

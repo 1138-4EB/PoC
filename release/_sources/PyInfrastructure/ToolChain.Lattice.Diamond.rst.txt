@@ -1,0 +1,116 @@
+ToolChain.Lattice.Diamond
+=============================
+
+.. automodule:: ToolChain.Lattice.Diamond
+
+
+.. currentmodule:: ToolChain.Lattice.Diamond
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`DiamondException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`Diamond`:
+  Undocumented.
+
+- :py:class:`Synth`:
+  Represent an executable.
+
+- :py:class:`SynthesisArgumentFile`:
+  Undocumented.
+
+
+
+**Functions**
+
+- :py:func:`MapFilter`:
+  Undocumented.
+
+- :py:func:`CompilerFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: DiamondException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DiamondException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: Diamond
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Diamond
+
+   .. rubric:: Members
+
+.. autoclass:: Synth
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Synth
+
+   .. rubric:: Members
+
+.. autoclass:: SynthesisArgumentFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SynthesisArgumentFile
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: MapFilter
+
+.. autofunction:: CompilerFilter

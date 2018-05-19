@@ -1,0 +1,201 @@
+ToolChain.Xilinx.ISE
+========================
+
+.. automodule:: ToolChain.Xilinx.ISE
+
+
+.. currentmodule:: ToolChain.Xilinx.ISE
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ISEException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`ISE`:
+  Undocumented.
+
+- :py:class:`Fuse`:
+  Represent an executable.
+
+- :py:class:`ISESimulator`:
+  Represent an executable.
+
+- :py:class:`Xst`:
+  Represent an executable.
+
+- :py:class:`CoreGenerator`:
+  Represent an executable.
+
+- :py:class:`ISEProject`:
+  Undocumented.
+
+- :py:class:`ISEProjectFile`:
+  Undocumented.
+
+- :py:class:`UserConstraintFile`:
+  Undocumented.
+
+
+
+**Functions**
+
+- :py:func:`VhCompFilter`:
+  Undocumented.
+
+- :py:func:`FuseFilter`:
+  Undocumented.
+
+- :py:func:`SimulatorFilter`:
+  Undocumented.
+
+- :py:func:`XstFilter`:
+  Undocumented.
+
+- :py:func:`CoreGeneratorFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ISEException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISEException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: ISE
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISE
+
+   .. rubric:: Members
+
+.. autoclass:: Fuse
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Fuse
+
+   .. rubric:: Members
+
+.. autoclass:: ISESimulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISESimulator
+
+   .. rubric:: Members
+
+.. autoclass:: Xst
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Xst
+
+   .. rubric:: Members
+
+.. autoclass:: CoreGenerator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CoreGenerator
+
+   .. rubric:: Members
+
+.. autoclass:: ISEProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISEProject
+
+   .. rubric:: Members
+
+.. autoclass:: ISEProjectFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISEProjectFile
+
+   .. rubric:: Members
+
+.. autoclass:: UserConstraintFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: UserConstraintFile
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: VhCompFilter
+
+.. autofunction:: FuseFilter
+
+.. autofunction:: SimulatorFilter
+
+.. autofunction:: XstFilter
+
+.. autofunction:: CoreGeneratorFilter

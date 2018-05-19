@@ -1,0 +1,74 @@
+lib.Decorators
+==================
+
+.. automodule:: lib.Decorators
+
+
+.. currentmodule:: lib.Decorators
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`MethodAlias`:
+  ``MethodAlias`` creates a local method, which is an alias to another method
+
+- :py:class:`ILazyLoadable`:
+  Undocumented.
+
+- :py:class:`LazyLoadTrigger`:
+  Undocumented.
+
+- :py:class:`CachedReadOnlyProperty`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: MethodAlias
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: MethodAlias
+
+   .. rubric:: Members
+
+.. autoclass:: ILazyLoadable
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ILazyLoadable
+
+   .. rubric:: Members
+
+.. autoclass:: LazyLoadTrigger
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LazyLoadTrigger
+
+   .. rubric:: Members
+
+.. autoclass:: CachedReadOnlyProperty
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CachedReadOnlyProperty
+
+   .. rubric:: Members

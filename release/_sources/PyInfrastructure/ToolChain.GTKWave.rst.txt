@@ -1,0 +1,83 @@
+ToolChain.GTKWave
+=====================
+
+.. automodule:: ToolChain.GTKWave
+
+
+.. currentmodule:: ToolChain.GTKWave
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`GTKWaveException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`GTKWave`:
+  Represent an executable.
+
+
+
+**Functions**
+
+- :py:func:`GTKWaveFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: GTKWaveException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GTKWaveException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: GTKWave
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GTKWave
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: GTKWaveFilter

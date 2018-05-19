@@ -1,0 +1,200 @@
+Parser.RulesCodeDOM
+=======================
+
+.. automodule:: Parser.RulesCodeDOM
+
+
+.. currentmodule:: Parser.RulesCodeDOM
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`InFileStatements`:
+  Undocumented.
+
+- :py:class:`PreProcessStatements`:
+  Undocumented.
+
+- :py:class:`PostProcessStatements`:
+  Undocumented.
+
+- :py:class:`DocumentStatements`:
+  Undocumented.
+
+- :py:class:`CopyStatement`:
+  Undocumented.
+
+- :py:class:`DeleteStatement`:
+  Undocumented.
+
+- :py:class:`ReplaceStatement`:
+  Undocumented.
+
+- :py:class:`AppendLineStatement`:
+  Undocumented.
+
+- :py:class:`FileStatement`:
+  Undocumented.
+
+- :py:class:`ProcessRulesBlockStatement`:
+  Undocumented.
+
+- :py:class:`PreProcessRulesStatement`:
+  Undocumented.
+
+- :py:class:`PostProcessRulesStatement`:
+  Undocumented.
+
+- :py:class:`Document`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: InFileStatements
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: InFileStatements
+
+   .. rubric:: Members
+
+.. autoclass:: PreProcessStatements
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PreProcessStatements
+
+   .. rubric:: Members
+
+.. autoclass:: PostProcessStatements
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PostProcessStatements
+
+   .. rubric:: Members
+
+.. autoclass:: DocumentStatements
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DocumentStatements
+
+   .. rubric:: Members
+
+.. autoclass:: CopyStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CopyStatement
+
+   .. rubric:: Members
+
+.. autoclass:: DeleteStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DeleteStatement
+
+   .. rubric:: Members
+
+.. autoclass:: ReplaceStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ReplaceStatement
+
+   .. rubric:: Members
+
+.. autoclass:: AppendLineStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AppendLineStatement
+
+   .. rubric:: Members
+
+.. autoclass:: FileStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FileStatement
+
+   .. rubric:: Members
+
+.. autoclass:: ProcessRulesBlockStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ProcessRulesBlockStatement
+
+   .. rubric:: Members
+
+.. autoclass:: PreProcessRulesStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PreProcessRulesStatement
+
+   .. rubric:: Members
+
+.. autoclass:: PostProcessRulesStatement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PostProcessRulesStatement
+
+   .. rubric:: Members
+
+.. autoclass:: Document
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Document
+
+   .. rubric:: Members

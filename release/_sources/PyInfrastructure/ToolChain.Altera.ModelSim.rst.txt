@@ -1,0 +1,96 @@
+ToolChain.Altera.ModelSim
+=============================
+
+.. automodule:: ToolChain.Altera.ModelSim
+
+
+.. currentmodule:: ToolChain.Altera.ModelSim
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ModelSimException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`AlteraModelSimEditions`:
+  Enumeration of all ModelSim editions provided by Altera.
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`AlteraEditionConfiguration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`AlteraStarterEditionConfiguration`:
+  Base class for all tool Configuration classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ModelSimException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: AlteraModelSimEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraModelSimEditions
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: AlteraEditionConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraEditionConfiguration
+
+   .. rubric:: Members
+
+.. autoclass:: AlteraStarterEditionConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraStarterEditionConfiguration
+
+   .. rubric:: Members

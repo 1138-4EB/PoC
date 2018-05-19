@@ -1,0 +1,68 @@
+ToolChain.Synopsys
+======================
+
+.. automodule:: ToolChain.Synopsys
+
+
+.. currentmodule:: ToolChain.Synopsys
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`SynopsysException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Synopsys as a vendor.
+
+- :py:class:`SynopsysDesignConstraintFile`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: SynopsysException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SynopsysException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: SynopsysDesignConstraintFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SynopsysDesignConstraintFile
+
+   .. rubric:: Members

@@ -1,0 +1,102 @@
+Parser.RulesParser
+======================
+
+.. automodule:: Parser.RulesParser
+
+
+.. currentmodule:: Parser.RulesParser
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Rule`:
+  Base class for all Rule and RuleMixIn classes.
+
+- :py:class:`CopyRuleMixIn`:
+  A partial class (MixIn) to represent a 'copy rule'.
+
+- :py:class:`DeleteRuleMixIn`:
+  A partial class (MixIn) to represent a 'delete rule'.
+
+- :py:class:`ReplaceRuleMixIn`:
+  A partial class (MixIn) to represent a 'replace rule'.
+
+- :py:class:`AppendLineRuleMixIn`:
+  A partial class (MixIn) to represent a 'append line rule'.
+
+- :py:class:`RulesParserMixIn`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Rule
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Rule
+
+   .. rubric:: Members
+
+.. autoclass:: CopyRuleMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CopyRuleMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: DeleteRuleMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DeleteRuleMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: ReplaceRuleMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ReplaceRuleMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: AppendLineRuleMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AppendLineRuleMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: RulesParserMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: RulesParserMixIn
+
+   .. rubric:: Members

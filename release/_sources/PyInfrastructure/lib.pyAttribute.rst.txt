@@ -1,0 +1,55 @@
+lib.pyAttribute
+===================
+
+.. automodule:: lib.pyAttribute
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   lib.pyAttribute.ArgParseAttributes
+
+.. currentmodule:: lib.pyAttribute
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Attribute`:
+  Undocumented.
+
+- :py:class:`AttributeHelperMixin`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Attribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Attribute
+
+   .. rubric:: Members
+
+.. autoclass:: AttributeHelperMixin
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AttributeHelperMixin
+
+   .. rubric:: Members

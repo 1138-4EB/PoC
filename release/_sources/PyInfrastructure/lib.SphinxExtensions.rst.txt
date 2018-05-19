@@ -1,0 +1,32 @@
+lib.SphinxExtensions
+========================
+
+.. automodule:: lib.SphinxExtensions
+
+
+.. currentmodule:: lib.SphinxExtensions
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`DocumentMemberAttribute`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: DocumentMemberAttribute
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DocumentMemberAttribute
+
+   .. rubric:: Members

@@ -1,0 +1,54 @@
+ToolChain.Windows
+=====================
+
+.. automodule:: ToolChain.Windows
+
+
+.. currentmodule:: ToolChain.Windows
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`WindowsException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Cmd`:
+  Represent an executable.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: WindowsException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Cmd
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Cmd
+
+   .. rubric:: Members

@@ -1,0 +1,74 @@
+Base.Logging
+================
+
+.. automodule:: Base.Logging
+
+
+.. currentmodule:: Base.Logging
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Severity`:
+  Logging message severity levels.
+
+- :py:class:`LogEntry`:
+  Represents a single line log message with a severity and indentation level.
+
+- :py:class:`Logger`:
+  Undocumented.
+
+- :py:class:`ILogable`:
+  A mixin class to provide local logging methods.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Severity
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Severity
+
+   .. rubric:: Members
+
+.. autoclass:: LogEntry
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LogEntry
+
+   .. rubric:: Members
+
+.. autoclass:: Logger
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Logger
+
+   .. rubric:: Members
+
+.. autoclass:: ILogable
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ILogable
+
+   .. rubric:: Members

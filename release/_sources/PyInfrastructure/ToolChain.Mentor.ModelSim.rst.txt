@@ -1,0 +1,219 @@
+ToolChain.Mentor.ModelSim
+=============================
+
+.. automodule:: ToolChain.Mentor.ModelSim
+
+
+.. currentmodule:: ToolChain.Mentor.ModelSim
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ModelSimException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`MentorModelSimPEEditions`:
+  Enumeration of all ModelSim editions provided by Mentor Graphics itself.
+
+- :py:class:`ModelSimEditions`:
+  Enumeration of all ModelSim editions provided by Mentor Graphics inclusive
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`ModelSimPEConfiguration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`ModelSimSE32Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`ModelSimSE64Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`Selector`:
+  Base class for all Selector classes.
+
+- :py:class:`ModelSim`:
+  Undocumented.
+
+- :py:class:`VHDLLibraryTool`:
+  Represent an executable.
+
+- :py:class:`VHDLCompiler`:
+  Represent an executable.
+
+- :py:class:`VHDLSimulator`:
+  Represent an executable.
+
+
+
+**Functions**
+
+- :py:func:`VLibFilter`:
+  Undocumented.
+
+- :py:func:`VComFilter`:
+  Undocumented.
+
+- :py:func:`VSimFilter`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ModelSimException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: MentorModelSimPEEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: MentorModelSimPEEditions
+
+   .. rubric:: Members
+
+.. autoclass:: ModelSimEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimEditions
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: ModelSimPEConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimPEConfiguration
+
+   .. rubric:: Members
+
+.. autoclass:: ModelSimSE32Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimSE32Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: ModelSimSE64Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimSE64Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: Selector
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Selector
+
+   .. rubric:: Members
+
+.. autoclass:: ModelSim
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSim
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLLibraryTool
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLLibraryTool
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLCompiler
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLCompiler
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLSimulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLSimulator
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: VLibFilter
+
+.. autofunction:: VComFilter
+
+.. autofunction:: VSimFilter

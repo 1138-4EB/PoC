@@ -1,0 +1,172 @@
+Parser.FilesParser
+======================
+
+.. automodule:: Parser.FilesParser
+
+
+.. currentmodule:: Parser.FilesParser
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`FileReference`:
+  Undocumented.
+
+- :py:class:`IncludeFileMixIn`:
+  Undocumented.
+
+- :py:class:`VHDLSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`VerilogSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`CocotbSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`LDCSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`SDCSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`UCFSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`XDCSourceFileMixIn`:
+  Undocumented.
+
+- :py:class:`VHDLLibraryReference`:
+  Undocumented.
+
+- :py:class:`FilesParserMixIn`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: FileReference
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FileReference
+
+   .. rubric:: Members
+
+.. autoclass:: IncludeFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IncludeFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: VerilogSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VerilogSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: CocotbSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CocotbSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: LDCSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LDCSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: SDCSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SDCSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: UCFSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: UCFSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: XDCSourceFileMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XDCSourceFileMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLLibraryReference
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLLibraryReference
+
+   .. rubric:: Members
+
+.. autoclass:: FilesParserMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FilesParserMixIn
+
+   .. rubric:: Members

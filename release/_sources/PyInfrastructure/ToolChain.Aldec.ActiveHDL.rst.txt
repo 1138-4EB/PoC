@@ -1,0 +1,163 @@
+ToolChain.Aldec.ActiveHDL
+=============================
+
+.. automodule:: ToolChain.Aldec.ActiveHDL
+
+
+.. currentmodule:: ToolChain.Aldec.ActiveHDL
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ActiveHDLException`:
+  An ActiveHDLException is raised if Active-HDL catches a system exception.
+
+
+
+**Classes**
+
+- :py:class:`AldecActiveHDLEditions`:
+  Enumeration of all Active-HDL editions provided by Aldec itself.
+
+- :py:class:`ActiveHDLEditions`:
+  Enumeration of all Active-HDL editions provided by Aldec inclusive editions
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`ActiveHDL`:
+  Factory for executable abstractions in Active-HDL.
+
+- :py:class:`VHDLLibraryTool`:
+  Abstraction layer of Active-HDL's VHDL library management tool 'vlib'.
+
+- :py:class:`VHDLCompiler`:
+  Abstraction layer of Active-HDL's VHDL compiler 'vcom'.
+
+- :py:class:`VHDLStandaloneSimulator`:
+  Abstraction layer of Active-HDL's VHDL standalone simulator 'vsimsa'.
+
+
+
+**Functions**
+
+- :py:func:`VLibFilter`:
+  A line based output stream filter for Active-HDL's VHDL library management
+
+- :py:func:`VComFilter`:
+  A line based output stream filter for Active-HDL's VHDL compiler.
+
+- :py:func:`VSimFilter`:
+  A line based output stream filter for Active-HDL's VHDL simulator.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ActiveHDLException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ActiveHDLException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: AldecActiveHDLEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AldecActiveHDLEditions
+
+   .. rubric:: Members
+
+.. autoclass:: ActiveHDLEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ActiveHDLEditions
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: ActiveHDL
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ActiveHDL
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLLibraryTool
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLLibraryTool
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLCompiler
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLCompiler
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLStandaloneSimulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLStandaloneSimulator
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: VLibFilter
+
+.. autofunction:: VComFilter
+
+.. autofunction:: VSimFilter

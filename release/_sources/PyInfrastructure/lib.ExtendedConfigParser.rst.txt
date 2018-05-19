@@ -1,0 +1,60 @@
+lib.ExtendedConfigParser
+============================
+
+.. automodule:: lib.ExtendedConfigParser
+
+
+.. currentmodule:: lib.ExtendedConfigParser
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`ExtendedSectionProxy`:
+  A proxy for a single section from a parser.
+
+- :py:class:`ExtendedInterpolation`:
+  Dummy interpolation that passes the value through with no changes.
+
+- :py:class:`ExtendedConfigParser`:
+  ConfigParser implementing interpolation.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: ExtendedSectionProxy
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExtendedSectionProxy
+
+   .. rubric:: Members
+
+.. autoclass:: ExtendedInterpolation
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExtendedInterpolation
+
+   .. rubric:: Members
+
+.. autoclass:: ExtendedConfigParser
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExtendedConfigParser
+
+   .. rubric:: Members

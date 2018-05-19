@@ -1,0 +1,79 @@
+ToolChain.Lattice
+=====================
+
+.. automodule:: ToolChain.Lattice
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Lattice.ActiveHDL
+   ToolChain.Lattice.Diamond
+   ToolChain.Lattice.Synplify
+
+.. currentmodule:: ToolChain.Lattice
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`LatticeException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Lattice as a vendor.
+
+- :py:class:`LatticeDesignConstraintFile`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: LatticeException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeDesignConstraintFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeDesignConstraintFile
+
+   .. rubric:: Members

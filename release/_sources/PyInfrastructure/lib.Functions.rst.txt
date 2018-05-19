@@ -1,0 +1,80 @@
+lib.Functions
+=================
+
+.. automodule:: lib.Functions
+
+
+.. currentmodule:: lib.Functions
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`CallByRefParam`:
+  Implements a "call by reference" parameter.
+
+- :py:class:`Init`:
+  Undocumented.
+
+- :py:class:`Exit`:
+  Undocumented.
+
+
+
+**Functions**
+
+- :py:func:`merge`:
+  Merge 2 or more dictionaries.
+
+- :py:func:`merge_with`:
+  Merge 2 or more dictionaries. Apply function f to each element during merge.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: CallByRefParam
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CallByRefParam
+
+   .. rubric:: Members
+
+.. autoclass:: Init
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Init
+
+   .. rubric:: Members
+
+.. autoclass:: Exit
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Exit
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: merge
+
+.. autofunction:: merge_with

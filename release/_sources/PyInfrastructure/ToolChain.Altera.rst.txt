@@ -1,0 +1,64 @@
+ToolChain.Altera
+====================
+
+.. automodule:: ToolChain.Altera
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Altera.ModelSim
+   ToolChain.Altera.Quartus
+
+.. currentmodule:: ToolChain.Altera
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`AlteraException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Altera as a vendor.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: AlteraException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members

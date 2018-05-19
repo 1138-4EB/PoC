@@ -1,0 +1,45 @@
+Base
+========
+
+.. automodule:: Base
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   Base.Exceptions
+   Base.Executable
+   Base.Logging
+   Base.Project
+   Base.Shared
+
+.. currentmodule:: Base
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`IHost`:
+  This is a type hint class (interface description) for a host instance.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: IHost
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IHost
+
+   .. rubric:: Members

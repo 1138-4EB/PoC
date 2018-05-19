@@ -1,0 +1,446 @@
+Base.Executable
+===================
+
+.. automodule:: Base.Executable
+
+
+.. currentmodule:: Base.Executable
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ExecutableException`:
+  This exception is raised by all executable abstraction classes.
+
+
+
+**Classes**
+
+- :py:class:`CommandLineArgument`:
+  Base class (and meta class) for all Arguments classes.
+
+- :py:class:`ExecutableArgument`:
+  Represents the executable.
+
+- :py:class:`NamedCommandLineArgument`:
+  Base class for all command line arguments with a name.
+
+- :py:class:`CommandArgument`:
+  Represents a command name.
+
+- :py:class:`ShortCommandArgument`:
+  Represents a command name with a single dash.
+
+- :py:class:`LongCommandArgument`:
+  Represents a command name with a double dash.
+
+- :py:class:`WindowsCommandArgument`:
+  Represents a command name with a single slash.
+
+- :py:class:`StringArgument`:
+  Represents a simple string argument.
+
+- :py:class:`StringListArgument`:
+  Represents a list of string arguments.
+
+- :py:class:`PathArgument`:
+  Represents a path argument.
+
+- :py:class:`FlagArgument`:
+  Base class for all FlagArgument classes, which represents a simple flag argument.
+
+- :py:class:`ShortFlagArgument`:
+  Represents a flag argument with a single dash.
+
+- :py:class:`LongFlagArgument`:
+  Represents a flag argument with a double dash.
+
+- :py:class:`WindowsFlagArgument`:
+  Represents a flag argument with a single slash.
+
+- :py:class:`ValuedFlagArgument`:
+  Class and base class for all ValuedFlagArgument classes, which represents a flag argument with data.
+
+- :py:class:`ShortValuedFlagArgument`:
+  Represents a :py:class:`ValuedFlagArgument` with a single dash.
+
+- :py:class:`LongValuedFlagArgument`:
+  Represents a :py:class:`ValuedFlagArgument` with a double dash.
+
+- :py:class:`WindowsValuedFlagArgument`:
+  Represents a :py:class:`ValuedFlagArgument` with a single slash.
+
+- :py:class:`ValuedFlagListArgument`:
+  Class and base class for all ValuedFlagListArgument classes, which represents a list of :py:class:`ValuedFlagArgument` instances.
+
+- :py:class:`ShortValuedFlagListArgument`:
+  Represents a :py:class:`ValuedFlagListArgument` with a single dash.
+
+- :py:class:`LongValuedFlagListArgument`:
+  Represents a :py:class:`ValuedFlagListArgument` with a double dash.
+
+- :py:class:`WindowsValuedFlagListArgument`:
+  Represents a :py:class:`ValuedFlagListArgument` with a single slash.
+
+- :py:class:`TupleArgument`:
+  Class and base class for all TupleArgument classes, which represents a switch with separate data.
+
+- :py:class:`ShortTupleArgument`:
+  Represents a :py:class:`TupleArgument` with a single dash in front of the switch name.
+
+- :py:class:`LongTupleArgument`:
+  Represents a :py:class:`TupleArgument` with a double dash in front of the switch name.
+
+- :py:class:`WindowsTupleArgument`:
+  Represents a :py:class:`TupleArgument` with a single slash in front of the switch name.
+
+- :py:class:`CommandLineArgumentList`:
+  Represent a list of all available commands, flags and switch of an executable.
+
+- :py:class:`Environment`:
+  Undocumented.
+
+- :py:class:`Executable`:
+  Represent an executable.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ExecutableException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExecutableException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: CommandLineArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommandLineArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ExecutableArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExecutableArgument
+
+   .. rubric:: Members
+
+.. autoclass:: NamedCommandLineArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NamedCommandLineArgument
+
+   .. rubric:: Members
+
+.. autoclass:: CommandArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommandArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ShortCommandArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ShortCommandArgument
+
+   .. rubric:: Members
+
+.. autoclass:: LongCommandArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LongCommandArgument
+
+   .. rubric:: Members
+
+.. autoclass:: WindowsCommandArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsCommandArgument
+
+   .. rubric:: Members
+
+.. autoclass:: StringArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StringArgument
+
+   .. rubric:: Members
+
+.. autoclass:: StringListArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StringListArgument
+
+   .. rubric:: Members
+
+.. autoclass:: PathArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PathArgument
+
+   .. rubric:: Members
+
+.. autoclass:: FlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ShortFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ShortFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: LongFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LongFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: WindowsFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ValuedFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ValuedFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ShortValuedFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ShortValuedFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: LongValuedFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LongValuedFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: WindowsValuedFlagArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsValuedFlagArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ValuedFlagListArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ValuedFlagListArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ShortValuedFlagListArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ShortValuedFlagListArgument
+
+   .. rubric:: Members
+
+.. autoclass:: LongValuedFlagListArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LongValuedFlagListArgument
+
+   .. rubric:: Members
+
+.. autoclass:: WindowsValuedFlagListArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsValuedFlagListArgument
+
+   .. rubric:: Members
+
+.. autoclass:: TupleArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: TupleArgument
+
+   .. rubric:: Members
+
+.. autoclass:: ShortTupleArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ShortTupleArgument
+
+   .. rubric:: Members
+
+.. autoclass:: LongTupleArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LongTupleArgument
+
+   .. rubric:: Members
+
+.. autoclass:: WindowsTupleArgument
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WindowsTupleArgument
+
+   .. rubric:: Members
+
+.. autoclass:: CommandLineArgumentList
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommandLineArgumentList
+
+   .. rubric:: Members
+
+.. autoclass:: Environment
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Environment
+
+   .. rubric:: Members
+
+.. autoclass:: Executable
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Executable
+
+   .. rubric:: Members

@@ -1,0 +1,64 @@
+DataBase
+============
+
+.. automodule:: DataBase
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   DataBase.Config
+   DataBase.Entity
+   DataBase.Solution
+   DataBase.TestCase
+
+.. currentmodule:: DataBase
+
+
+.. #-----------------------------------
+
+**Variables**
+
+- :py:data:`__POC_SOLUTION_KEYWORD__`
+- :py:data:`__POC_PROJECT_KEYWORD__`
+
+
+**Classes**
+
+- :py:class:`Query`:
+  Undocumented.
+
+
+
+.. autodata:: __POC_SOLUTION_KEYWORD__
+   :annotation:
+
+   .. code-block:: guess
+
+      'Solution'
+
+.. autodata:: __POC_PROJECT_KEYWORD__
+   :annotation:
+
+   .. code-block:: guess
+
+      'Project'
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Query
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Query
+
+   .. rubric:: Members

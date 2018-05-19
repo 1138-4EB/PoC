@@ -1,0 +1,64 @@
+ToolChain.Intel
+===================
+
+.. automodule:: ToolChain.Intel
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Intel.ModelSim
+   ToolChain.Intel.Quartus
+
+.. currentmodule:: ToolChain.Intel
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`IntelException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Intel as a vendor.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: IntelException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IntelException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members

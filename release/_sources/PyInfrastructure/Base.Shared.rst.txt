@@ -1,0 +1,47 @@
+Base.Shared
+===============
+
+.. automodule:: Base.Shared
+
+
+.. currentmodule:: Base.Shared
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Shared`:
+  Base class for Simulator and Compiler.
+
+
+
+**Functions**
+
+- :py:func:`to_time`:
+  Convert *n* seconds to a :py:class:`str` with this pattern: "{min}:{sec:02}".
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Shared
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Shared
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: to_time

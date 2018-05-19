@@ -1,0 +1,54 @@
+ToolChain.Lattice.Synplify
+==============================
+
+.. automodule:: ToolChain.Lattice.Synplify
+
+
+.. currentmodule:: ToolChain.Lattice.Synplify
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`SynplifyException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: SynplifyException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SynplifyException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members

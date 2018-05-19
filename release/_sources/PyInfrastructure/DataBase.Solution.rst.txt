@@ -1,0 +1,172 @@
+DataBase.Solution
+=====================
+
+.. automodule:: DataBase.Solution
+
+
+.. currentmodule:: DataBase.Solution
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Base`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`Repository`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`Solution`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`Project`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`ISEProject`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`VivadoProject`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`QuartusProject`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`LatticeProject`:
+  Base class for Repository, Solution and Project.
+
+- :py:class:`VirtualProject`:
+  Undocumented.
+
+- :py:class:`FileListFile`:
+  Undocumented.
+
+- :py:class:`RulesFile`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Base
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Base
+
+   .. rubric:: Members
+
+.. autoclass:: Repository
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Repository
+
+   .. rubric:: Members
+
+.. autoclass:: Solution
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Solution
+
+   .. rubric:: Members
+
+.. autoclass:: Project
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Project
+
+   .. rubric:: Members
+
+.. autoclass:: ISEProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ISEProject
+
+   .. rubric:: Members
+
+.. autoclass:: VivadoProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VivadoProject
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusProject
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeProject
+
+   .. rubric:: Members
+
+.. autoclass:: VirtualProject
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VirtualProject
+
+   .. rubric:: Members
+
+.. autoclass:: FileListFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FileListFile
+
+   .. rubric:: Members
+
+.. autoclass:: RulesFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: RulesFile
+
+   .. rubric:: Members

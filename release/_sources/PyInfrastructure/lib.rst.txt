@@ -1,0 +1,25 @@
+lib
+=======
+
+.. automodule:: lib
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   lib.CodeDOM
+   lib.Decorators
+   lib.ExtendedConfigParser
+   lib.Functions
+   lib.Parser
+   lib.SphinxExtensions
+   lib.pyAttribute
+
+.. currentmodule:: lib
+
+
+.. #-----------------------------------

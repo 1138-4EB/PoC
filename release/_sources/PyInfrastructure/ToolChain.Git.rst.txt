@@ -1,0 +1,138 @@
+ToolChain.Git
+=================
+
+.. automodule:: ToolChain.Git
+
+
+.. currentmodule:: ToolChain.Git
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`GitException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`Git`:
+  Undocumented.
+
+- :py:class:`GitSCM`:
+  Represent an executable.
+
+- :py:class:`GitRevParse`:
+  Represent an executable.
+
+- :py:class:`GitRevList`:
+  Represent an executable.
+
+- :py:class:`GitDescribe`:
+  Represent an executable.
+
+- :py:class:`GitConfig`:
+  Represent an executable.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: GitException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: Git
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Git
+
+   .. rubric:: Members
+
+.. autoclass:: GitSCM
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitSCM
+
+   .. rubric:: Members
+
+.. autoclass:: GitRevParse
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitRevParse
+
+   .. rubric:: Members
+
+.. autoclass:: GitRevList
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitRevList
+
+   .. rubric:: Members
+
+.. autoclass:: GitDescribe
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitDescribe
+
+   .. rubric:: Members
+
+.. autoclass:: GitConfig
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GitConfig
+
+   .. rubric:: Members

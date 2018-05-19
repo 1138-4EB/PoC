@@ -1,0 +1,82 @@
+ToolChain.Intel.Quartus
+===========================
+
+.. automodule:: ToolChain.Intel.Quartus
+
+
+.. currentmodule:: ToolChain.Intel.Quartus
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`QuartusException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`Quartus`:
+  Undocumented.
+
+- :py:class:`Map`:
+  Represent an executable.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: QuartusException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: Quartus
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Quartus
+
+   .. rubric:: Members
+
+.. autoclass:: Map
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Map
+
+   .. rubric:: Members

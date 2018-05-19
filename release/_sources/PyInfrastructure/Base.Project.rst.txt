@@ -1,0 +1,256 @@
+Base.Project
+================
+
+.. automodule:: Base.Project
+
+
+.. currentmodule:: Base.Project
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`FileTypes`:
+  Undocumented.
+
+- :py:class:`Environment`:
+  An enumeration.
+
+- :py:class:`ToolChain`:
+  An enumeration.
+
+- :py:class:`Tool`:
+  An enumeration.
+
+- :py:class:`VHDLVersion`:
+  An enumeration.
+
+- :py:class:`Project`:
+  Undocumented.
+
+- :py:class:`FileSet`:
+  Undocumented.
+
+- :py:class:`VHDLLibrary`:
+  Undocumented.
+
+- :py:class:`File`:
+  Undocumented.
+
+- :py:class:`ProjectFile`:
+  Undocumented.
+
+- :py:class:`ConstraintFile`:
+  Undocumented.
+
+- :py:class:`SettingsFile`:
+  Undocumented.
+
+- :py:class:`SourceFile`:
+  Undocumented.
+
+- :py:class:`VHDLSourceFile`:
+  Undocumented.
+
+- :py:class:`VerilogSourceFile`:
+  Undocumented.
+
+- :py:class:`PythonSourceFile`:
+  Undocumented.
+
+- :py:class:`CocotbSourceFile`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: FileTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FileTypes
+
+   .. rubric:: Members
+
+.. autoclass:: Environment
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Environment
+
+   .. rubric:: Members
+
+.. autoclass:: ToolChain
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ToolChain
+
+   .. rubric:: Members
+
+.. autoclass:: Tool
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Tool
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLVersion
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLVersion
+
+   .. rubric:: Members
+
+.. autoclass:: Project
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Project
+
+   .. rubric:: Members
+
+.. autoclass:: FileSet
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FileSet
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLLibrary
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLLibrary
+
+   .. rubric:: Members
+
+.. autoclass:: File
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: File
+
+   .. rubric:: Members
+
+.. autoclass:: ProjectFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ProjectFile
+
+   .. rubric:: Members
+
+.. autoclass:: ConstraintFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConstraintFile
+
+   .. rubric:: Members
+
+.. autoclass:: SettingsFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SettingsFile
+
+   .. rubric:: Members
+
+.. autoclass:: SourceFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SourceFile
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLSourceFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLSourceFile
+
+   .. rubric:: Members
+
+.. autoclass:: VerilogSourceFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VerilogSourceFile
+
+   .. rubric:: Members
+
+.. autoclass:: PythonSourceFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PythonSourceFile
+
+   .. rubric:: Members
+
+.. autoclass:: CocotbSourceFile
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CocotbSourceFile
+
+   .. rubric:: Members

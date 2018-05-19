@@ -1,0 +1,369 @@
+DataBase.Entity
+===================
+
+.. automodule:: DataBase.Entity
+
+
+.. currentmodule:: DataBase.Entity
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`EntityTypes`:
+  An enumeration.
+
+- :py:class:`BaseFlags`:
+  Undocumented.
+
+- :py:class:`TestbenchKind`:
+  Undocumented.
+
+- :py:class:`NetlistKind`:
+  Undocumented.
+
+- :py:class:`NamespaceRoot`:
+  Undocumented.
+
+- :py:class:`Visibility`:
+  An enumeration.
+
+- :py:class:`PathElement`:
+  Undocumented.
+
+- :py:class:`Namespace`:
+  Undocumented.
+
+- :py:class:`Library`:
+  Undocumented.
+
+- :py:class:`WildCard`:
+  Undocumented.
+
+- :py:class:`StarWildCard`:
+  Undocumented.
+
+- :py:class:`AskWildCard`:
+  Undocumented.
+
+- :py:class:`IPCore`:
+  Undocumented.
+
+- :py:class:`LazyPathElement`:
+  Undocumented.
+
+- :py:class:`Testbench`:
+  Undocumented.
+
+- :py:class:`VHDLTestbench`:
+  Undocumented.
+
+- :py:class:`CocoTestbench`:
+  Undocumented.
+
+- :py:class:`Netlist`:
+  Undocumented.
+
+- :py:class:`XstNetlist`:
+  Undocumented.
+
+- :py:class:`QuartusNetlist`:
+  Undocumented.
+
+- :py:class:`LatticeNetlist`:
+  Undocumented.
+
+- :py:class:`CoreGeneratorNetlist`:
+  Undocumented.
+
+- :py:class:`VivadoNetlist`:
+  Undocumented.
+
+- :py:class:`FQN`:
+  Undocumented.
+
+
+
+**Functions**
+
+- :py:func:`_PoCEntityTypes_parser`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: EntityTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EntityTypes
+
+   .. rubric:: Members
+
+.. autoclass:: BaseFlags
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BaseFlags
+
+   .. rubric:: Members
+
+.. autoclass:: TestbenchKind
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: TestbenchKind
+
+   .. rubric:: Members
+
+.. autoclass:: NetlistKind
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NetlistKind
+
+   .. rubric:: Members
+
+.. autoclass:: NamespaceRoot
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NamespaceRoot
+
+   .. rubric:: Members
+
+.. autoclass:: Visibility
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Visibility
+
+   .. rubric:: Members
+
+.. autoclass:: PathElement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PathElement
+
+   .. rubric:: Members
+
+.. autoclass:: Namespace
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Namespace
+
+   .. rubric:: Members
+
+.. autoclass:: Library
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Library
+
+   .. rubric:: Members
+
+.. autoclass:: WildCard
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: WildCard
+
+   .. rubric:: Members
+
+.. autoclass:: StarWildCard
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StarWildCard
+
+   .. rubric:: Members
+
+.. autoclass:: AskWildCard
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AskWildCard
+
+   .. rubric:: Members
+
+.. autoclass:: IPCore
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IPCore
+
+   .. rubric:: Members
+
+.. autoclass:: LazyPathElement
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LazyPathElement
+
+   .. rubric:: Members
+
+.. autoclass:: Testbench
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Testbench
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLTestbench
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLTestbench
+
+   .. rubric:: Members
+
+.. autoclass:: CocoTestbench
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CocoTestbench
+
+   .. rubric:: Members
+
+.. autoclass:: Netlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Netlist
+
+   .. rubric:: Members
+
+.. autoclass:: XstNetlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XstNetlist
+
+   .. rubric:: Members
+
+.. autoclass:: QuartusNetlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: QuartusNetlist
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeNetlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeNetlist
+
+   .. rubric:: Members
+
+.. autoclass:: CoreGeneratorNetlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CoreGeneratorNetlist
+
+   .. rubric:: Members
+
+.. autoclass:: VivadoNetlist
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VivadoNetlist
+
+   .. rubric:: Members
+
+.. autoclass:: FQN
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: FQN
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: _PoCEntityTypes_parser

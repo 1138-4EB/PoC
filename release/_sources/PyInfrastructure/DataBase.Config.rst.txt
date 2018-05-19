@@ -1,0 +1,298 @@
+DataBase.Config
+===================
+
+.. automodule:: DataBase.Config
+
+
+.. currentmodule:: DataBase.Config
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`BaseEnum`:
+  An enumeration.
+
+- :py:class:`Vendors`:
+  An enumeration.
+
+- :py:class:`Families`:
+  Base enum for all Family enums.
+
+- :py:class:`GenericFamilies`:
+  Enumeration of all generic families.
+
+- :py:class:`AlteraFamilies`:
+  Enumeration of all Altera families.
+
+- :py:class:`LatticeFamilies`:
+  Enumeration of all Lattice families.
+
+- :py:class:`XilinxFamilies`:
+  Enumeration of all Xilinx families.
+
+- :py:class:`Devices`:
+  Base enum for all Device enums.
+
+- :py:class:`GenericDevices`:
+  Enumeration of all generic devices.
+
+- :py:class:`AlteraDevices`:
+  Enumeration of all Altera devices.
+
+- :py:class:`LatticeDevices`:
+  Enumeration of all Lattice devices.
+
+- :py:class:`XilinxDevices`:
+  Enumeration of all Xilinx devices.
+
+- :py:class:`SubTypes`:
+  Base enum for all SubType enums.
+
+- :py:class:`GenericSubTypes`:
+  Enumeration of all generic device subtype.
+
+- :py:class:`AlteraSubTypes`:
+  Enumeration of all Altera device subtype.
+
+- :py:class:`LatticeSubTypes`:
+  Enumeration of all Lattice device subtype.
+
+- :py:class:`XilinxSubTypes`:
+  Enumeration of all Xilinx device subtype.
+
+- :py:class:`Packages`:
+  An enumeration.
+
+- :py:class:`Device`:
+  Undocumented.
+
+- :py:class:`Board`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: BaseEnum
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: BaseEnum
+
+   .. rubric:: Members
+
+.. autoclass:: Vendors
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Vendors
+
+   .. rubric:: Members
+
+.. autoclass:: Families
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Families
+
+   .. rubric:: Members
+
+.. autoclass:: GenericFamilies
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenericFamilies
+
+   .. rubric:: Members
+
+.. autoclass:: AlteraFamilies
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraFamilies
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeFamilies
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeFamilies
+
+   .. rubric:: Members
+
+.. autoclass:: XilinxFamilies
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XilinxFamilies
+
+   .. rubric:: Members
+
+.. autoclass:: Devices
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Devices
+
+   .. rubric:: Members
+
+.. autoclass:: GenericDevices
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenericDevices
+
+   .. rubric:: Members
+
+.. autoclass:: AlteraDevices
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraDevices
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeDevices
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeDevices
+
+   .. rubric:: Members
+
+.. autoclass:: XilinxDevices
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XilinxDevices
+
+   .. rubric:: Members
+
+.. autoclass:: SubTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SubTypes
+
+   .. rubric:: Members
+
+.. autoclass:: GenericSubTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GenericSubTypes
+
+   .. rubric:: Members
+
+.. autoclass:: AlteraSubTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AlteraSubTypes
+
+   .. rubric:: Members
+
+.. autoclass:: LatticeSubTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: LatticeSubTypes
+
+   .. rubric:: Members
+
+.. autoclass:: XilinxSubTypes
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XilinxSubTypes
+
+   .. rubric:: Members
+
+.. autoclass:: Packages
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Packages
+
+   .. rubric:: Members
+
+.. autoclass:: Device
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Device
+
+   .. rubric:: Members
+
+.. autoclass:: Board
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Board
+
+   .. rubric:: Members

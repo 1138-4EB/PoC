@@ -1,0 +1,243 @@
+ToolChain
+=============
+
+.. automodule:: ToolChain
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Aldec
+   ToolChain.Altera
+   ToolChain.GHDL
+   ToolChain.GNU
+   ToolChain.GTKWave
+   ToolChain.Git
+   ToolChain.Intel
+   ToolChain.Lattice
+   ToolChain.Mentor
+   ToolChain.PoC
+   ToolChain.Synopsys
+   ToolChain.Windows
+   ToolChain.Xilinx
+
+.. currentmodule:: ToolChain
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ToolChainException`:
+  Base class for all tool specific exceptions
+
+- :py:exc:`ConfigurationException`:
+  ``ConfigurationException`` is raise while running configuration or database
+
+- :py:exc:`SkipConfigurationException`:
+  ``SkipConfigurationException`` is a :py:exc:`ConfigurationException`,
+
+
+
+**Classes**
+
+- :py:class:`ConfigurationState`:
+  Describes the configuration state of a tool or vendor.
+
+- :py:class:`ChangeState`:
+  Describes if a configuration was changed.
+
+- :py:class:`ToolMixIn`:
+  Undocumented.
+
+- :py:class:`AskMixIn`:
+  Undocumented.
+
+- :py:class:`Configuration`:
+  Base class for all Configuration classes.
+
+- :py:class:`VendorConfiguration`:
+  Base class for all vendor Configuration classes.
+
+- :py:class:`ToolConfiguration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`EditionDescription`:
+  EditionDescription(Name, Section)
+
+- :py:class:`Edition`:
+  An enumeration.
+
+- :py:class:`ToolSelector`:
+  Base class for all Selector classes.
+
+- :py:class:`Configurator`:
+  A instance of this class controls the interactive configuration process.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ToolChainException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ToolChainException
+
+   .. rubric:: Members
+
+.. autoexception:: ConfigurationException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConfigurationException
+
+   .. rubric:: Members
+
+.. autoexception:: SkipConfigurationException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SkipConfigurationException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: ConfigurationState
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ConfigurationState
+
+   .. rubric:: Members
+
+.. autoclass:: ChangeState
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ChangeState
+
+   .. rubric:: Members
+
+.. autoclass:: ToolMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ToolMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: AskMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: AskMixIn
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: VendorConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VendorConfiguration
+
+   .. rubric:: Members
+
+.. autoclass:: ToolConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ToolConfiguration
+
+   .. rubric:: Members
+
+.. autoclass:: EditionDescription
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EditionDescription
+
+   .. rubric:: Members
+
+.. autoclass:: Edition
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Edition
+
+   .. rubric:: Members
+
+.. autoclass:: ToolSelector
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ToolSelector
+
+   .. rubric:: Members
+
+.. autoclass:: Configurator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configurator
+
+   .. rubric:: Members

@@ -1,0 +1,116 @@
+Base.Exceptions
+===================
+
+.. automodule:: Base.Exceptions
+
+
+.. currentmodule:: Base.Exceptions
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ExceptionBase`:
+  Base exception derived from :py:exc:`Exception` for all
+
+- :py:exc:`EnvironmentException`:
+  ``EnvironmentException`` is raised when an expected environment variable is
+
+- :py:exc:`PlatformNotSupportedException`:
+  ``PlatformNotSupportedException`` is raise if the platform is not supported
+
+- :py:exc:`NotConfiguredException`:
+  ``NotConfiguredException`` is raise if PoC or the requested tool chain
+
+- :py:exc:`SkipableException`:
+  Base class for all skipable exceptions.
+
+- :py:exc:`CommonException`:
+  Base exception derived from :py:exc:`Exception` for all
+
+- :py:exc:`SkipableCommonException`:
+  ``SkipableCommonException`` is a :py:exc:`CommonException`, which can be
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ExceptionBase
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ExceptionBase
+
+   .. rubric:: Members
+
+.. autoexception:: EnvironmentException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EnvironmentException
+
+   .. rubric:: Members
+
+.. autoexception:: PlatformNotSupportedException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: PlatformNotSupportedException
+
+   .. rubric:: Members
+
+.. autoexception:: NotConfiguredException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NotConfiguredException
+
+   .. rubric:: Members
+
+.. autoexception:: SkipableException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SkipableException
+
+   .. rubric:: Members
+
+.. autoexception:: CommonException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CommonException
+
+   .. rubric:: Members
+
+.. autoexception:: SkipableCommonException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SkipableCommonException
+
+   .. rubric:: Members

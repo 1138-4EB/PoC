@@ -1,0 +1,32 @@
+Simulator.GHDLSimulator
+===========================
+
+.. automodule:: Simulator.GHDLSimulator
+
+
+.. currentmodule:: Simulator.GHDLSimulator
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Simulator`:
+  This class encapsulates the GHDL simulator.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Simulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Simulator
+
+   .. rubric:: Members

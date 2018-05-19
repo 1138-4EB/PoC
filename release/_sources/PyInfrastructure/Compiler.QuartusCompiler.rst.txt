@@ -1,0 +1,32 @@
+Compiler.QuartusCompiler
+============================
+
+.. automodule:: Compiler.QuartusCompiler
+
+
+.. currentmodule:: Compiler.QuartusCompiler
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Compiler`:
+  Base class for all Compiler classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Compiler
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Compiler
+
+   .. rubric:: Members

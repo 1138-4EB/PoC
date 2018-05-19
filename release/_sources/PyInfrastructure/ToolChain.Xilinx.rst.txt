@@ -1,0 +1,78 @@
+ToolChain.Xilinx
+====================
+
+.. automodule:: ToolChain.Xilinx
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Xilinx.ISE
+   ToolChain.Xilinx.Vivado
+
+.. currentmodule:: ToolChain.Xilinx
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`XilinxException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Xilinx as a vendor.
+
+- :py:class:`XilinxProjectExportMixIn`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: XilinxException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XilinxException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: XilinxProjectExportMixIn
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: XilinxProjectExportMixIn
+
+   .. rubric:: Members

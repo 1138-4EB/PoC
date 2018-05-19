@@ -1,0 +1,32 @@
+Simulator.ModelSimSimulator
+===============================
+
+.. automodule:: Simulator.ModelSimSimulator
+
+
+.. currentmodule:: Simulator.ModelSimSimulator
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Simulator`:
+  Base class for all Simulator classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Simulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Simulator
+
+   .. rubric:: Members

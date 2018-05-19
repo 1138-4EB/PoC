@@ -1,0 +1,32 @@
+Simulator.CocotbSimulator
+=============================
+
+.. automodule:: Simulator.CocotbSimulator
+
+
+.. currentmodule:: Simulator.CocotbSimulator
+
+
+.. #-----------------------------------
+
+
+**Classes**
+
+- :py:class:`Simulator`:
+  Base class for all Simulator classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Simulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Simulator
+
+   .. rubric:: Members

@@ -1,0 +1,96 @@
+ToolChain.Intel.ModelSim
+============================
+
+.. automodule:: ToolChain.Intel.ModelSim
+
+
+.. currentmodule:: ToolChain.Intel.ModelSim
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ModelSimException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`IntelModelSimEditions`:
+  An enumeration.
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`IntelEditionConfiguration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`IntelStarterEditionConfiguration`:
+  Base class for all tool Configuration classes.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ModelSimException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ModelSimException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: IntelModelSimEditions
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IntelModelSimEditions
+
+   .. rubric:: Members
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: IntelEditionConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IntelEditionConfiguration
+
+   .. rubric:: Members
+
+.. autoclass:: IntelStarterEditionConfiguration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: IntelStarterEditionConfiguration
+
+   .. rubric:: Members

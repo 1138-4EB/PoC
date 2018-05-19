@@ -1,0 +1,250 @@
+lib.Parser
+==============
+
+.. automodule:: lib.Parser
+
+
+.. currentmodule:: lib.Parser
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`ParserException`:
+  Common base class for all non-exit exceptions.
+
+- :py:exc:`MismatchingParserResult`:
+  Signal the end from iterator.__next__().
+
+- :py:exc:`EmptyChoiseParserResult`:
+  Signal the end from iterator.__next__().
+
+- :py:exc:`MatchingParserResult`:
+  Signal the end from iterator.__next__().
+
+- :py:exc:`GreedyMatchingParserResult`:
+  Signal the end from iterator.__next__().
+
+
+
+**Classes**
+
+- :py:class:`SourceCodePosition`:
+  Undocumented.
+
+- :py:class:`Token`:
+  Undocumented.
+
+- :py:class:`SuperToken`:
+  Undocumented.
+
+- :py:class:`ValuedToken`:
+  Undocumented.
+
+- :py:class:`StartOfDocumentToken`:
+  Undocumented.
+
+- :py:class:`CharacterToken`:
+  Undocumented.
+
+- :py:class:`SpaceToken`:
+  Undocumented.
+
+- :py:class:`DelimiterToken`:
+  Undocumented.
+
+- :py:class:`NumberToken`:
+  Undocumented.
+
+- :py:class:`StringToken`:
+  Undocumented.
+
+- :py:class:`Tokenizer`:
+  Undocumented.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: ParserException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ParserException
+
+   .. rubric:: Members
+
+.. autoexception:: MismatchingParserResult
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: MismatchingParserResult
+
+   .. rubric:: Members
+
+.. autoexception:: EmptyChoiseParserResult
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: EmptyChoiseParserResult
+
+   .. rubric:: Members
+
+.. autoexception:: MatchingParserResult
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: MatchingParserResult
+
+   .. rubric:: Members
+
+.. autoexception:: GreedyMatchingParserResult
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: GreedyMatchingParserResult
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: SourceCodePosition
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SourceCodePosition
+
+   .. rubric:: Members
+
+.. autoclass:: Token
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Token
+
+   .. rubric:: Members
+
+.. autoclass:: SuperToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SuperToken
+
+   .. rubric:: Members
+
+.. autoclass:: ValuedToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: ValuedToken
+
+   .. rubric:: Members
+
+.. autoclass:: StartOfDocumentToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StartOfDocumentToken
+
+   .. rubric:: Members
+
+.. autoclass:: CharacterToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: CharacterToken
+
+   .. rubric:: Members
+
+.. autoclass:: SpaceToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: SpaceToken
+
+   .. rubric:: Members
+
+.. autoclass:: DelimiterToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: DelimiterToken
+
+   .. rubric:: Members
+
+.. autoclass:: NumberToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: NumberToken
+
+   .. rubric:: Members
+
+.. autoclass:: StringToken
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: StringToken
+
+   .. rubric:: Members
+
+.. autoclass:: Tokenizer
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Tokenizer
+
+   .. rubric:: Members

@@ -1,0 +1,135 @@
+ToolChain.Aldec.RivieraPRO
+==============================
+
+.. automodule:: ToolChain.Aldec.RivieraPRO
+
+
+.. currentmodule:: ToolChain.Aldec.RivieraPRO
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`RivieraPROException`:
+  An RivieraPROException is raised if Riviera-PRO catches a system exception.
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Base class for all tool Configuration classes.
+
+- :py:class:`RivieraPRO`:
+  Factory for executable abstractions in Riviera-PRO.
+
+- :py:class:`VHDLLibraryTool`:
+  Abstraction layer of Riviera-PRO's VHDL library management tool 'vlib'.
+
+- :py:class:`VHDLCompiler`:
+  Abstraction layer of Riviera-PRO's VHDL compiler 'vcom'.
+
+- :py:class:`VHDLSimulator`:
+  Represent an executable.
+
+
+
+**Functions**
+
+- :py:func:`VLibFilter`:
+  A line based output stream filter for Riviera-PRO's VHDL library management tool.
+
+- :py:func:`VComFilter`:
+  A line based output stream filter for Riviera-PRO's VHDL compiler.
+
+- :py:func:`VSimFilter`:
+  A line based output stream filter for Riviera-PRO's VHDL simulator.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: RivieraPROException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: RivieraPROException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
+
+.. autoclass:: RivieraPRO
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: RivieraPRO
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLLibraryTool
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLLibraryTool
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLCompiler
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLCompiler
+
+   .. rubric:: Members
+
+.. autoclass:: VHDLSimulator
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: VHDLSimulator
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+**Functions**
+
+
+.. autofunction:: VLibFilter
+
+.. autofunction:: VComFilter
+
+.. autofunction:: VSimFilter

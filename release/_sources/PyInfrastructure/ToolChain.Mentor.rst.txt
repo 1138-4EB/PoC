@@ -1,0 +1,64 @@
+ToolChain.Mentor
+====================
+
+.. automodule:: ToolChain.Mentor
+
+
+
+.. #-----------------------------------
+
+**Submodules**
+
+.. toctree::
+
+   ToolChain.Mentor.ModelSim
+   ToolChain.Mentor.QuestaSim
+
+.. currentmodule:: ToolChain.Mentor
+
+
+.. #-----------------------------------
+
+
+**Exceptions**
+
+- :py:exc:`MentorException`:
+  Base class for all tool specific exceptions
+
+
+
+**Classes**
+
+- :py:class:`Configuration`:
+  Configuration routines for Mentor Graphics as a vendor.
+
+
+
+.. #-----------------------------------
+
+
+.. autoexception:: MentorException
+   :members:
+   :private-members:
+   :inherited-members:
+   :undoc-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: MentorException
+
+   .. rubric:: Members
+
+
+.. #-----------------------------------
+
+
+.. autoclass:: Configuration
+   :members:
+   :private-members:
+   :undoc-members:
+   :inherited-members:
+
+   .. rubric:: Inheritance
+   .. inheritance-diagram:: Configuration
+
+   .. rubric:: Members
